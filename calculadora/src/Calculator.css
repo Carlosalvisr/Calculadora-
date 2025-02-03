@@ -1,0 +1,27 @@
+/* src/Calculator.css */
+.calculator {
+    display: flex; /* Usamos flexbox para centrar el contenido */
+    flex-direction: column; /* Colocamos los elementos en una columna */
+    align-items: center; /* Centramos los elementos horizontalmente */
+    margin: 20px; /* Margen alrededor de la calculadora */
+}
+
+input {
+    width: 200px; /* Ancho del campo de entrada */
+    height: 40px; /* Altura del campo de entrada */
+    font-size: 24px; /* Tamaño de la fuente del campo de entrada */
+    text-align: right; /* Alineamos el texto a la derecha */
+    margin-bottom: 10px; /* Espacio debajo del campo de entrada */
+}
+
+.button-container {
+    display: grid; /* Usamos grid para organizar los botones */
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas de igual tamaño */
+    gap: 10px; /* Espacio entre los botones */
+}
+
+button {
+    width: 50px; /* Ancho de los botones */
+    height: 50px; /* Altura de los botones */
+    font-size: 18px; /* Tamaño de la fuente de los botones */
+}
